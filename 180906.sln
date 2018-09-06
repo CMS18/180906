@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetheodDemo", "MetheodDemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxProblem", "MinMaxProblem\MinMaxProblem.csproj", "{D71B5F0D-DFAD-45C6-BD80-9070CCBB2751}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionGDC", "RecursionGDC\RecursionGDC.csproj", "{8A717F8A-FB45-4380-84FF-93352495FC40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D71B5F0D-DFAD-45C6-BD80-9070CCBB2751}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D71B5F0D-DFAD-45C6-BD80-9070CCBB2751}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D71B5F0D-DFAD-45C6-BD80-9070CCBB2751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A717F8A-FB45-4380-84FF-93352495FC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A717F8A-FB45-4380-84FF-93352495FC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A717F8A-FB45-4380-84FF-93352495FC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A717F8A-FB45-4380-84FF-93352495FC40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
