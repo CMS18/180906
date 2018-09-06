@@ -16,10 +16,29 @@ namespace RecursionGDC
             return GreatestCommonDivisor(value2, value1 % value2);
         }
 
+        static int GreatestCommonDivisorWithNoRecursion(int value1, int value2)
+        {
+            while (value1 != 0 && value2 != 0)
+            {
+                if (value1 > value2)
+                {
+                    value1 = value1 % value2;
+                }
+                else
+                {
+                    value2 = value2 % value1;
+                }
+            }
+
+            return value1 == 0 ? value2 : value1;
+
+        }
+
 
         static void Main(string[] args)
         {
-            int devisor = GreatestCommonDivisor(345, 150);
+            //int devisor = GreatestCommonDivisor(345, 150);
+            int devisor = GreatestCommonDivisorWithNoRecursion(345, 150);
 
             Console.WriteLine("Devisor: " + devisor);
         }
