@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionGDC", "RecursionGD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionLabyrinth", "RecursionLabyrinth\RecursionLabyrinth.csproj", "{834810A7-A466-4C32-8382-2D8A16C681E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDemo", "ObjectDemo\ObjectDemo.csproj", "{834540C9-683B-4C45-BAC6-B437068416B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{834810A7-A466-4C32-8382-2D8A16C681E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{834810A7-A466-4C32-8382-2D8A16C681E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{834810A7-A466-4C32-8382-2D8A16C681E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{834540C9-683B-4C45-BAC6-B437068416B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834540C9-683B-4C45-BAC6-B437068416B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834540C9-683B-4C45-BAC6-B437068416B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834540C9-683B-4C45-BAC6-B437068416B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
